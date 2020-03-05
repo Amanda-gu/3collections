@@ -1,0 +1,177 @@
+
+body {
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 100%;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+a:hover {
+	opacity: 1;
+
+}
+
+
+.header {
+	position: fixed;
+	top: 30px;
+	left: 40px;
+	color: white;
+	font-family: akzidenz-grotesk std, sans-serif;
+	font-size: 30px;
+	filter: blur(3px);
+}
+.header:hover {
+	filter: none;
+}
+
+
+
+
+.quote 
+{
+	color: white;
+	font-family: baskerville, serif;
+	line-height: 45px;
+/*	font-style: italic;*/
+	text-transform: lowercase;
+	font-size: 30px;
+	font-weight: lighter;
+	
+
+}
+
+
+@keyframes quote1 {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+
+@keyframes quote2 {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+
+@keyframes quote3 {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes instruction {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+
+
+#quote1 {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	opacity: 0;
+
+	animation-name: quote1;
+    animation-duration: 3.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+
+}
+#quote2 {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	opacity: 0;
+
+	animation-name: quote2;
+    animation-duration: 3.5s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+}
+#quote3 {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	opacity: 0;
+
+	animation-name: quote3;
+    animation-duration: 3.5s;
+    animation-delay: 7.5s;
+    animation-iteration-count: 1;
+}
+
+#instruction{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	opacity: 0;
+
+	animation-name: instruction;
+    animation-duration: 3.5s;
+    animation-delay: 11s;
+    animation-iteration-count: 1;
+}
+img {
+	position: absolute;
+	top: 500px;
+	left: 400px;
+	transform: translate(-50%, -50%) scale(0.3);
+}
+
+
+
+
+
+

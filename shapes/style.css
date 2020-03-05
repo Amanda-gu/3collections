@@ -1,0 +1,174 @@
+body {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+
+}
+
+
+@media (max-width: 600px) {
+
+div.photos {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-rows: repeat(auto-fill,  minmax(140px, 1fr));
+  height: 1000px;
+  margin: 50px;
+  margin-top: 100px;
+  grid-gap: 0px;
+
+}
+}
+
+
+.header {
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	color: white;
+	font-family: akzidenz-grotesk std, sans-serif;
+	font-size: 30px;
+	filter: blur(3px);
+}
+.header:hover {
+	filter: none;
+	
+}
+
+
+
+.photos {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-rows: repeat(auto-fill,  minmax(200px, 1fr));
+  height: 1500px;
+  margin: 100px;
+  grid-gap: 0px;
+
+
+}
+
+
+@keyframes quote1 {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+
+@keyframes quote2 {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.quote 
+{
+	color: white;
+	font-family: baskerville, serif;
+	line-height: 45px;
+/*	font-style: italic;*/
+	text-transform: lowercase;
+	font-size: 30px;
+	font-weight: lighter;
+	z-index: 950;
+
+}
+#quote1 {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	opacity: 0;
+
+	animation-name: quote1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+
+}
+#quote2 {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	opacity: 0;
+
+	animation-name: quote2;
+    animation-duration: 5s;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+}
+
+
+img {
+	width: 0px;
+	margin: auto;
+	z-index: 970;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 50%;
+	filter: blur(0px);
+
+}
+
+#img13 {
+	transform: rotate(90deg);
+}
+
+#img14 {
+	transform: rotate(90deg);
+}
+#img15 {
+	transform: rotate(90deg);
+}
+#img16 {
+	transform: rotate(90deg);
+}
+#img18 {
+	transform: rotate(90deg);
+}
+
+#img19 {
+	transform: rotate(90deg);
+}
+
+
+img:hover {
+	width: 250px;
+	z-index: 1000;
+		border-style: none;
+		border-radius: 0%;
+	filter: none;
+
+}
+
+
+
+
+
+
