@@ -11,4 +11,9 @@ $('.center').one('mouseover', function(){
         
     });
 
+$('.collection01').one('mouseover', function(){
+        $('.center').addClass('.move');
+ 
+    });
+
 });

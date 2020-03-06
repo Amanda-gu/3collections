@@ -212,9 +212,45 @@ transition: opacity 1s ease-in;
 	filter:none;
 }
 
+@keyframes spaces{
 
 
+0%{
+	display: block;
 
+	  margin: auto;
+	  margin-top: 320px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+
+	background: radial-gradient(circle at 50%, #000000, #000000 50%, #eee 70%, #000000 30%);
+	
+	filter: blur(1px);
+
+}
+
+
+50%{
+	display: block;
+
+	  margin: auto;
+	  margin-top: 320px;
+	width: 200px;
+	height: 200px;
+
+	background: radial-gradient(circle at 50%, #000000, #000000 50%, #eee 70%, #000000 30%);
+	
+	filter: blur(1px);
+}
+
+}
+
+.move {
+animation-name: spaces;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
 
 
 
